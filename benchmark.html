@@ -2,14 +2,14 @@
 <html>
 	<head>
 		<title>delaunay.js benchmark</title>
-		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js" type="text/javascript" charset="utf-8"></script>
-		<script src="//raw.github.com/spencerschack/delaunay.js/master/delaunay.js" type="text/javascript" charset="utf-8"></script>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="http://raw.github.com/spencerschack/delaunay.js/master/delaunay.js" type="text/javascript" charset="utf-8"></script>
 		<script>
 			$(document).ready(function() {
 				
 				function generatePoints(numberOfPoints) {
 					var points = [];
-					for(var i = 0, i < numberOfPoints; i++) {
+					for(var i = 0; i < numberOfPoints; i++) {
 						points.push({
 							x: (Math.random() * 1000),
 							y: (Math.random() * 1000)
